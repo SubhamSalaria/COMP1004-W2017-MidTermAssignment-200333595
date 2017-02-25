@@ -63,36 +63,33 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
 
             finalForm.Show();
         }
-
-        private void SoldierRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton selectedJob = (RadioButton)sender;
-            this._jobSelected = selectedJob.Text;
-            healthPointTextBox.Text = (_soldierHealth + _EndHealthMode).ToString();
-        }
-
-        //radio button for selecting the rouge health points
-        private void RogueRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton selectedJob = (RadioButton)sender;
-            this._jobSelected = selectedJob.Text;
-            healthPointTextBox.Text = (_rogueHealth + _DexHealthMode).ToString();
-        }
-           
-        //radio button for selecting the magicker health points
-        private void MagickerRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton selectedJob = (RadioButton)sender;
-            this._jobSelected = selectedJob.Text;
-            healthPointTextBox.Text = (_magickerHealth + _IntHealthMode).ToString();
-        }
         
-        //radio button for selecting the cultist health points
-        private void CultistRadioButton_CheckedChanged(object sender, EventArgs e)
+
+
+        private void radiobutton(object sender, EventArgs e)
         {
-            RadioButton selectedJob = (RadioButton)sender;
-            this._jobSelected = selectedJob.Text;
-            healthPointTextBox.Text = (_cultistHealth + _ChaHealthMode).ToString();
+            RadioButton input = sender as RadioButton;
+
+            switch (input.Text) {
+                case "Soldier":
+                    this._jobSelected = input.Text;
+                    healthPointTextBox.Text = (_soldierHealth + _EndHealthMode).ToString();
+                    break;
+                case "Rogue":
+                    healthPointTextBox.Text = (_rogueHealth + _DexHealthMode).ToString();
+                    this._jobSelected = input.Text;
+                    break;
+                case "Magicker":
+                    healthPointTextBox.Text = (_magickerHealth + _IntHealthMode).ToString();
+                    this._jobSelected = input.Text;
+                    break;
+                case "Cultist":
+                    healthPointTextBox.Text = (_cultistHealth + _ChaHealthMode).ToString();
+                    this._jobSelected = input.Text;
+                    break;
+
+            }
+
         }
     }
 }
