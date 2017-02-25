@@ -1,4 +1,12 @@
-﻿using System;
+﻿/// <summary>
+/// Program:  Character Creator
+/// Name: Subham Salaria
+/// StudentID: 200333595
+/// App Creation Date: Feb 24, 2017
+/// 
+/// </summary>
+///
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
