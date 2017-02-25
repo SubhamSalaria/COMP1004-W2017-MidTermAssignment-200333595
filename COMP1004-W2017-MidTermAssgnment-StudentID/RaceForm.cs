@@ -56,8 +56,8 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
         private void load()
         {
             CharacterPictureBox.Image = Properties.Resources.Human;
-           
 
+            this._selectedRace = "Human";
             RacialBonusTextBox.Text = "Increase all abilities by 5";
 
         }
