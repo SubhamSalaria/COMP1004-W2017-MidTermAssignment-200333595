@@ -58,7 +58,7 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
             CharacterPictureBox.Image = Properties.Resources.Human;
            
 
-            RacialBonusTextBox.Text = "Increase all abilities by 10";
+            RacialBonusTextBox.Text = "Increase all abilities by 5";
 
         }
         /// <summary>
@@ -72,7 +72,7 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
             CharacterPictureBox.Image = Properties.Resources.Human;
             RadioButton selectedRace = (RadioButton)sender;
 
-            RacialBonusTextBox.Text = "Increase all abilities by 10";
+            RacialBonusTextBox.Text = "Increase all abilities by 5";
 
             _StrMode = _StrMode + 5;
             _DexMode = _DexMode + 5;
@@ -96,10 +96,10 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
 
             CharacterPictureBox.Image = Properties.Resources.elf;
             RadioButton selectedRace = (RadioButton)sender;
-            RacialBonusTextBox.Text = "Increase DEX and PER by 20";
+            RacialBonusTextBox.Text = "Increase DEX and CHA by 15";
 
-            _DexMode = _DexMode + 20;
-            _PerMode = _PerMode + 20;
+            _DexMode = _DexMode + 15;
+            _ChaMode = _ChaMode + 15;
 
             this._selectedRace = selectedRace.Text;
 
