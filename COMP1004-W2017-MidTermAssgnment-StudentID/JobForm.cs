@@ -47,7 +47,7 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
          //next button will generate the next form and close the current form
         private void NextButton_Click(object sender, EventArgs e)
         {
-            Character character = Program.character;
+            AbilityValues character = Program.character;
 
 
             character.Job = _jobSelected;

@@ -47,7 +47,7 @@
             // CHATextBox
             // 
             this.CHATextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CHATextBox.Location = new System.Drawing.Point(157, 322);
+            this.CHATextBox.Location = new System.Drawing.Point(286, 334);
             this.CHATextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CHATextBox.Name = "CHATextBox";
             this.CHATextBox.Size = new System.Drawing.Size(132, 32);
@@ -56,7 +56,7 @@
             // PERTextBox
             // 
             this.PERTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PERTextBox.Location = new System.Drawing.Point(157, 262);
+            this.PERTextBox.Location = new System.Drawing.Point(286, 263);
             this.PERTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.PERTextBox.Name = "PERTextBox";
             this.PERTextBox.Size = new System.Drawing.Size(132, 32);
@@ -65,7 +65,7 @@
             // INTTextBox
             // 
             this.INTTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.INTTextBox.Location = new System.Drawing.Point(157, 203);
+            this.INTTextBox.Location = new System.Drawing.Point(286, 204);
             this.INTTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.INTTextBox.Name = "INTTextBox";
             this.INTTextBox.Size = new System.Drawing.Size(132, 32);
@@ -74,7 +74,7 @@
             // ENDTextBox
             // 
             this.ENDTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ENDTextBox.Location = new System.Drawing.Point(157, 148);
+            this.ENDTextBox.Location = new System.Drawing.Point(286, 148);
             this.ENDTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ENDTextBox.Name = "ENDTextBox";
             this.ENDTextBox.Size = new System.Drawing.Size(132, 32);
@@ -83,7 +83,7 @@
             // DEXTextBox
             // 
             this.DEXTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DEXTextBox.Location = new System.Drawing.Point(157, 92);
+            this.DEXTextBox.Location = new System.Drawing.Point(286, 92);
             this.DEXTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.DEXTextBox.Name = "DEXTextBox";
             this.DEXTextBox.Size = new System.Drawing.Size(132, 32);
@@ -92,7 +92,7 @@
             // STRTextBox
             // 
             this.STRTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.STRTextBox.Location = new System.Drawing.Point(157, 33);
+            this.STRTextBox.Location = new System.Drawing.Point(286, 34);
             this.STRTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.STRTextBox.Name = "STRTextBox";
             this.STRTextBox.Size = new System.Drawing.Size(132, 32);
@@ -102,7 +102,7 @@
             // 
             this.CHALabel.AutoSize = true;
             this.CHALabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CHALabel.Location = new System.Drawing.Point(32, 326);
+            this.CHALabel.Location = new System.Drawing.Point(141, 337);
             this.CHALabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CHALabel.Name = "CHALabel";
             this.CHALabel.Size = new System.Drawing.Size(65, 29);
@@ -113,7 +113,7 @@
             // 
             this.PERLabel.AutoSize = true;
             this.PERLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PERLabel.Location = new System.Drawing.Point(32, 266);
+            this.PERLabel.Location = new System.Drawing.Point(141, 266);
             this.PERLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PERLabel.Name = "PERLabel";
             this.PERLabel.Size = new System.Drawing.Size(65, 29);
@@ -124,7 +124,7 @@
             // 
             this.INTLabel.AutoSize = true;
             this.INTLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.INTLabel.Location = new System.Drawing.Point(32, 207);
+            this.INTLabel.Location = new System.Drawing.Point(150, 207);
             this.INTLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.INTLabel.Name = "INTLabel";
             this.INTLabel.Size = new System.Drawing.Size(56, 29);
@@ -135,7 +135,7 @@
             // 
             this.ENDLabel.AutoSize = true;
             this.ENDLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ENDLabel.Location = new System.Drawing.Point(32, 151);
+            this.ENDLabel.Location = new System.Drawing.Point(150, 151);
             this.ENDLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ENDLabel.Name = "ENDLabel";
             this.ENDLabel.Size = new System.Drawing.Size(67, 29);
@@ -146,7 +146,7 @@
             // 
             this.DEXLabel.AutoSize = true;
             this.DEXLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DEXLabel.Location = new System.Drawing.Point(32, 92);
+            this.DEXLabel.Location = new System.Drawing.Point(152, 95);
             this.DEXLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DEXLabel.Name = "DEXLabel";
             this.DEXLabel.Size = new System.Drawing.Size(66, 29);
@@ -157,7 +157,7 @@
             // 
             this.STRLabel.AutoSize = true;
             this.STRLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.STRLabel.Location = new System.Drawing.Point(32, 37);
+            this.STRLabel.Location = new System.Drawing.Point(152, 37);
             this.STRLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.STRLabel.Name = "STRLabel";
             this.STRLabel.Size = new System.Drawing.Size(65, 29);

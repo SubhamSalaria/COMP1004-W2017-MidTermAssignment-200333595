@@ -74,7 +74,7 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
         //Inputs the proper information to Character.cs then switches the forms. Uses try Catch for validation
         private void NextButton_Click(object sender, EventArgs e)
         {
-            Character character = Program.character;
+            AbilityValues character = Program.character;
 
             try
             {

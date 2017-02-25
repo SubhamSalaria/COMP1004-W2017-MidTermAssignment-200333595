@@ -9,7 +9,7 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
     public class Program
     {
 
-        public static Character character = new Character();
+        public static AbilityValues character = new AbilityValues();
 
 
 
