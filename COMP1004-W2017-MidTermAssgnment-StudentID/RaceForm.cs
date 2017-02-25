@@ -37,6 +37,7 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
         public RaceForm()
         {
             InitializeComponent();
+            this.load();
         }
 
         private void NextButton_Click(object sender, EventArgs e)
@@ -52,7 +53,14 @@ namespace COMP1004_W2017_MidTermAssgnment_StudentID
             jobForm.Show();
             this.Hide();
         }
+        private void load()
+        {
+            CharacterPictureBox.Image = Properties.Resources.Human;
+           
 
+            RacialBonusTextBox.Text = "Increase all abilities by 10";
+
+        }
         /// <summary>
         /// selecting the radio button for getting the picture and other functionality
         /// of the human radio function
