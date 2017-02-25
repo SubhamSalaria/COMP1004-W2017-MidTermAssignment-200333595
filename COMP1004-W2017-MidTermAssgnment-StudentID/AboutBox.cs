@@ -1,4 +1,12 @@
-﻿using System;
+﻿/// <summary>
+/// Program:  Character Creator
+/// Name: Subham Salaria
+/// StudentID: 200333595
+/// App Creation Date: Feb 24, 2017
+/// 
+/// </summary>
+///
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -8,14 +16,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-/// <summary>
-/// Program: Midterm DND Character Creator
-/// Name: Mahesh mahesh
-/// StudentID: 20033980
-/// App Creation Date: Feb 21, 2013
-/// App Desc: Creates a character used for various characterstics
-/// </summary>
-/// 
+
 
 
 namespace COMP1004_W2017_MidTermAssgnment_StudentID
